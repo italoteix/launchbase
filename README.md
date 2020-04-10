@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Study notes and challeges solutions for LaunchBase Bootcamp 04
+  Study notes and challenges solutions for LaunchBase Bootcamp 04
 </h3>
 
 <p align="center">
@@ -34,9 +34,13 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 ### Web Development Introduction
 
-- Challenge 1-1 - [Details](/week01/01-web-dev-introduction/README.md)
+- Challenge 1-1 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-1-js-first-steps)
   - BMI calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/bmi.js)
   - Retirement calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/retirement.js)
+
+- Challenge 1-2 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-2-dealing-with-objects-and-arrays)
+  - Building and printing objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/company-data.js)
+  - Arrays and objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/programmer.js)
 
 
 ## :memo: License
