@@ -200,4 +200,4 @@
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
   - Add favicon and styles - [Solution](/week01/02-starting-the-front/challenge02-1/)
     
-  <img align="center alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />
+  <img align="center" alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />
