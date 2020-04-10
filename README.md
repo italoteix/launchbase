@@ -47,6 +47,8 @@ The idea about this project is to bring my study notes and solutions to challeng
   - Search for technology - [Solution](/week01/01-web-dev-introduction/challenge01-3/tech-search.js)
   - Expenses and revenues sum - [Solution](/week01/01-web-dev-introduction/challenge01-3/expenses-revenues.js)
 
+- Challenge 1-4 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-4-app-banking-operations)
+  - User's bank account - [Solution](/week01/01-web-dev-introduction/challenge01-4/bank-ops.js)
 
 ## :memo: License
 

@@ -23,7 +23,8 @@
 <p align="center">
   <a href="#rocket-challenge-1-1-js-first-steps">Challenge 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 03</a>
+  <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 03</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 04</a>
 </p>
 
 ## :rocket: Challenge 1-1: JS first steps
@@ -157,4 +158,34 @@
     Salvio has a POSITIVE balance of 158.10.
     Marcio has a NEGATIVE balance of -33.20.
     Lucia has a POSITIVE balance of 35.50.
+    ```
+
+## :rocket: Challenge 1-4: App: Banking operations
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
+  - User's bank account - [Solution](/week01/01-web-dev-introduction/challenge01-4/bank-ops.js)
+    #### Sample input
+    ```js
+    user = {
+      name: "Mariana",
+      transactions: [],
+      balance: 0
+    };
+    ```
+    
+    #### Sample output
+    ```js
+    createTransaction({ type: "credit", value: 50 });
+    createTransaction({ type: "credit", value: 120 });
+    createTransaction({ type: "debit", value: 80 });
+    createTransaction({ type: "debit", value: 30 });
+
+    console.log(user.balance); // 60
+
+    console.log(getHigherTransactionByType("credit")); // { type: 'credit', value: 120 }
+    console.log(getHigherTransactionByType("debit")); // { type: 'debit', value: 80 }
+
+    console.log(getAverageTransactionValue()); // 70
+
+    console.log(getTransactionsCount()); // { credit: 2, debit: 2 }
     ```
