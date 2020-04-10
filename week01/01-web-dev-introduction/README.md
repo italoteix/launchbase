@@ -22,13 +22,14 @@
 
 <p align="center">
   <a href="#rocket-challenge-1-1-js-first-steps">Challenge 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 02</a>
+  <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 03</a>
 </p>
 
 ## :rocket: Challenge 1-1: JS first steps
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
-  - BMI calculus - [Solution](/challenge01-1/bmi.js)
+  - BMI calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/bmi.js)
     #### Sample input
     ```js
     name = "Carlos";
@@ -39,7 +40,7 @@
     ```
     Carlos, you are not overweighted
     ```
-  - Retirement calculus - [Solution](/challenge01-1.js)
+  - Retirement calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1.js)
     #### Sample input
     ```js
     name = "Silvana";
@@ -55,7 +56,7 @@
 ## :rocket: Challenge 1-2: Dealing with objects and arrays
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
-  - Building and printing objects - [Solution](/challenge01-2/company-data.js)
+  - Building and printing objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/company-data.js)
     #### Sample input
     ```js
     company = {
@@ -74,7 +75,7 @@
     The Rocketseat company is located at Rua Guilherme Gembala, 260.  
     ```
 
-  - Arrays and objects - [Solution](/challenge01-2/programmer.js)
+  - Arrays and objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/programmer.js)
     #### Sample input
     ```js
     programmer = {
@@ -91,4 +92,69 @@
     #### Sample output
     ```
     The user Ítalo is 29 years old and uses JavaScript technology with specialty in Web/Mobile.
+    ```
+
+## :rocket: Challenge 1-3: Functions and iteration statements
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
+  - Users and technologies - [Solution](/week01/01-web-dev-introduction/challenge01-3/users-tech.js)
+    #### Sample input
+    ```js
+    users = [
+      { name: "Carlos", techs: ["HTML", "CSS"] },
+      { name: "Jasmine", techs: ["JavaScript", "CSS"] },
+      { name: "Tuane", techs: ["HTML", "Node.js"] }
+    ];
+    ```
+    
+    #### Sample output
+    ```
+    Carlos works with HTML, CSS.
+    Jasmine works with JavaScript, CSS.
+    Tuane works with HTML, Node.js.
+    ```
+
+  - Search for technology - [Solution](/week01/01-web-dev-introduction/challenge01-3/tech-search.js)
+    #### Sample input
+    ```js
+    users = [
+      { name: "Carlos", techs: ["HTML", "CSS"] },
+      { name: "Jasmine", techs: ["JavaScript", "CSS"] },
+      { name: "Tuane", techs: ["HTML", "Node.js"] }
+    ];
+    ```
+    
+    #### Sample output
+    ```
+    The user Carlos works with CSS.
+    The user Jasmine works with CSS.
+    ```
+
+  - Expenses and revenues sum - [Solution](/week01/01-web-dev-introduction/challenge01-3/expenses-revenues.js)
+    #### Sample input
+    ```js
+    users = [
+      {
+        name: "Salvio",
+        revenues: [115.3, 48.7, 98.3, 14.5],
+        expenses: [85.3, 13.5, 19.9]
+      },
+      {
+        name: "Marcio",
+        revenues: [24.6, 214.3, 45.3],
+        expenses: [185.3, 12.1, 120.0]
+      },
+      {
+        name: "Lucia",
+        revenues: [9.8, 120.3, 340.2, 45.3],
+        expenses: [450.2, 29.9]
+      }
+    ];
+    ```
+    
+    #### Sample output
+    ```
+    Salvio has a POSITIVE balance of 158.10.
+    Marcio has a NEGATIVE balance of -33.20.
+    Lucia has a POSITIVE balance of 35.50.
     ```

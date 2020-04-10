@@ -42,6 +42,11 @@ The idea about this project is to bring my study notes and solutions to challeng
   - Building and printing objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/company-data.js)
   - Arrays and objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/programmer.js)
 
+- Challenge 1-3 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-3-functions-and-iteration-statements)
+  - Users and technologies - [Solution](/week01/01-web-dev-introduction/challenge01-3/users-tech.js)
+  - Search for technology - [Solution](/week01/01-web-dev-introduction/challenge01-3/tech-search.js)
+  - Expenses and revenues sum - [Solution](/week01/01-web-dev-introduction/challenge01-3/expenses-revenues.js)
+
 
 ## :memo: License
 
