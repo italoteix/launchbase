@@ -21,13 +21,16 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-challenge-1-1-js-first-steps">Challenge 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 03</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 04</a>
+  <a href="#rocket-challenge-1-1-js-first-steps">Challenge 1-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 1-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>
 </p>
 
-## :rocket: Challenge 1-1: JS first steps
+## :vertical_traffic_light: Web Development Introduction
+
+### :rocket: Challenge 1-1: JS first steps
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-1-primeiros-passos-com-js.md)
   - BMI calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/bmi.js)
@@ -54,7 +57,7 @@
     Silvana, you can not retire!
     ```
 
-## :rocket: Challenge 1-2: Dealing with objects and arrays
+### :rocket: Challenge 1-2: Dealing with objects and arrays
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-2-lidando-com-objetos-e-vetores.md)
   - Building and printing objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/company-data.js)
@@ -95,7 +98,7 @@
     The user Ítalo is 29 years old and uses JavaScript technology with specialty in Web/Mobile.
     ```
 
-## :rocket: Challenge 1-3: Functions and iteration statements
+### :rocket: Challenge 1-3: Functions and iteration statements
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-3-funcoes-e-estruturas-de-repeticao.md)
   - Users and technologies - [Solution](/week01/01-web-dev-introduction/challenge01-3/users-tech.js)
@@ -160,7 +163,7 @@
     Lucia has a POSITIVE balance of 35.50.
     ```
 
-## :rocket: Challenge 1-4: App: Banking operations
+### :rocket: Challenge 1-4: App: Banking operations
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md)
   - User's bank account - [Solution](/week01/01-web-dev-introduction/challenge01-4/bank-ops.js)
@@ -189,3 +192,12 @@
 
     console.log(getTransactionsCount()); // { credit: 2, debit: 2 }
     ```
+
+## :art: Starting the Front-end
+
+### :rocket: Challenge 2-1: First HTML
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
+  - Add favicon and styles - [Solution](/week01/02-starting-the-front/challenge02-1/)
+    
+  <img align="center alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />

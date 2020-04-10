@@ -34,21 +34,24 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 ### Web Development Introduction
 
-- Challenge 1-1 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-1-js-first-steps)
+- Challenge 1-1 - [Details](/week01/README.md#rocket-challenge-1-1-js-first-steps)
   - BMI calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/bmi.js)
   - Retirement calculus - [Solution](/week01/01-web-dev-introduction/challenge01-1/retirement.js)
 
-- Challenge 1-2 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-2-dealing-with-objects-and-arrays)
+- Challenge 1-2 - [Details](/week01/README.md#rocket-challenge-1-2-dealing-with-objects-and-arrays)
   - Building and printing objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/company-data.js)
   - Arrays and objects - [Solution](/week01/01-web-dev-introduction/challenge01-2/programmer.js)
 
-- Challenge 1-3 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-3-functions-and-iteration-statements)
+- Challenge 1-3 - [Details](/week01/README.md#rocket-challenge-1-3-functions-and-iteration-statements)
   - Users and technologies - [Solution](/week01/01-web-dev-introduction/challenge01-3/users-tech.js)
   - Search for technology - [Solution](/week01/01-web-dev-introduction/challenge01-3/tech-search.js)
   - Expenses and revenues sum - [Solution](/week01/01-web-dev-introduction/challenge01-3/expenses-revenues.js)
 
-- Challenge 1-4 - [Details](/week01/01-web-dev-introduction/README.md#rocket-challenge-1-4-app-banking-operations)
+- Challenge 1-4 - [Details](/week01/README.md#rocket-challenge-1-4-app-banking-operations)
   - User's bank account - [Solution](/week01/01-web-dev-introduction/challenge01-4/bank-ops.js)
+  
+- Challenge 1-4 - [Details](/week01/README.md#rocket-challenge-2-1-first-html)
+  - User's bank account - [Solution](/week01/02-starting-the-front/challenge02-1/)
 
 ## :memo: License
 
