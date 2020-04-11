@@ -26,7 +26,8 @@
   <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 1-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-Challenge 2-2-about-page">Challenge 2-2</a>
+  <a href="#rocket-challenge-2-2-about-page">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-2-3-content-page">Challenge 2-3</a>
 </p>
 
 ## :vertical_traffic_light: Web Development Introduction
@@ -212,4 +213,13 @@
     
   <p align="center">
     <img alt="challenge 2-2" src="/week01/02-starting-the-front/demos/challenge2-2.png" width="600px" />
+  </p>
+
+### :rocket: Challenge 2-3: Content page
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-3-pagina-cursos-e-iframe.md)
+  - Modal and iframe - [Solution](/week01/02-starting-the-front/challenge02-3/)
+    
+  <p align="center">
+    <img alt="challenge 2-3" src="/week01/02-starting-the-front/demos/challenge2-3.gif" width="600px" />
   </p>

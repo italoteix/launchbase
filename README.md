@@ -58,6 +58,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 2-1 - [Details](/week01/README.md#rocket-challenge-2-2-about-page)
   - Add a second page - [Solution](/week01/02-starting-the-front/challenge02-2/)
 
+- Challenge 2-2 - [Details](/week01/README.md#rocket-challenge-2-3-content-page)
+  - Modal and iframe - [Solution](/week01/02-starting-the-front/challenge02-3/)
+
 ## :memo: License
 
 This Project is under MIT License. Read the [LICENSE](./LICENSE) file for more details.
