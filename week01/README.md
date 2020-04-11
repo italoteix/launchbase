@@ -201,15 +201,15 @@
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
   - Add favicon and styles - [Solution](/week01/02-starting-the-front/challenge02-1/)
   
-  <div align="center>
+  <p align="center>
     <img alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />
-  </div>
+  </p>
 
 ### :rocket: Challenge 2-2: About page
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
   - Add a second page - [Solution](/week01/02-starting-the-front/challenge02-2/)
     
-  <div align="center>
+  <p align="center>
     <img alt="challenge 2-2" src="/week01/02-starting-the-front/demos/challenge2-2.png" width="600px" />
-  </div>
+  </p>
