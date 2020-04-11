@@ -25,7 +25,8 @@
   <a href="#rocket-challenge-1-2-dealing-with-objects-and-arrays">Challenge 1-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-1-3-functions-and-iteration-statements">Challenge 1-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 1-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>
+  <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-Challenge 2-2-about-page">Challenge 2-2</a>
 </p>
 
 ## :vertical_traffic_light: Web Development Introduction
@@ -199,5 +200,16 @@
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md)
   - Add favicon and styles - [Solution](/week01/02-starting-the-front/challenge02-1/)
+  
+  <div align="center>
+    <img alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />
+  </div>
+
+### :rocket: Challenge 2-2: About page
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md)
+  - Add a second page - [Solution](/week01/02-starting-the-front/challenge02-2/)
     
-  <img align="center" alt="first-html" src="/week01/02-starting-the-front/demos/first-html.png" width="600px" />
+  <div align="center>
+    <img alt="challenge 2-2" src="/week01/02-starting-the-front/demos/challenge2-2.png" width="600px" />
+  </div>
