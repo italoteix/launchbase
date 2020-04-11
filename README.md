@@ -50,7 +50,7 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 1-4 - [Details](/week01/README.md#rocket-challenge-1-4-app-banking-operations)
   - User's bank account - [Solution](/week01/01-web-dev-introduction/challenge01-4/bank-ops.js)
 
-  ### Starting the Front-end
+### Starting the Front-end
   
 - Challenge 2-1 - [Details](/week01/README.md#rocket-challenge-2-1-first-html)
   - Add favicon and styles  - [Solution](/week01/02-starting-the-front/challenge02-1/)
