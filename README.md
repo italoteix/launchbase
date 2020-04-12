@@ -23,6 +23,7 @@
 <p align="center">
   <a href="#rocket-about-this-repo">About this repo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-week-01">Week 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#bulb-foodfy">Foodfy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
 
@@ -60,6 +61,12 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 - Challenge 2-2 - [Details](/week01/README.md#rocket-challenge-2-3-content-page)
   - Modal and iframe - [Solution](/week01/02-starting-the-front/challenge02-3/)
+
+## :bulb: Foodfy
+
+This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.
+
+You can see my take on this challenge [here](https://github.com/italoteix/foodfy).
 
 ## :memo: License
 
