@@ -27,7 +27,8 @@
   <a href="#rocket-challenge-1-4-app-banking-operations">Challenge 1-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-2-2-about-page">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-2-3-content-page">Challenge 2-3</a>
+  <a href="#rocket-challenge-2-3-content-page">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-3-1-first-server">Challenge 3-1</a>
 </p>
 
 ## :vertical_traffic_light: Web Development Introduction
@@ -222,4 +223,37 @@
     
   <p align="center">
     <img alt="challenge 2-3" src="/week01/02-starting-the-front/demos/challenge2-3.gif" width="600px" />
+  </p>
+
+## :building_construction: Starting the Back-end
+
+### :rocket: Challenge 3-1: First server
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-1-primeiro-servidor.md)
+  - Express and Nunjucks - [Solution](/week01/03-starting-the-back-end/challenge03-1/)
+
+  #### Installing
+
+  Make sure that you are at the project root directory and run the following command on your terminal
+
+  ```bash
+  $ npm install
+  ```
+
+  #### Local server
+
+  Run this command
+
+  ```bash
+  $ npm start
+  ```
+
+  After that, the following message should be logged at your terminal
+
+  ```bash
+  Server running on port 5000
+  ```
+
+  <p align="center">
+    <img alt="first-html" src="/week01/03-starting-the-back-end/demo/challenge3-1.png" width="600px" />
   </p>
