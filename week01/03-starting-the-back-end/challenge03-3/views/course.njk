@@ -1,0 +1,29 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>{{ item.name }}</title>
+{% endblock head %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <h1>{{ item.name }}</h1>
+
+    <div class="course">
+      <a href="https://rocketseat.com.br/{{ item.id }}">
+        <div class="card" id="{{ item.id }}">
+          <div class="logo">
+            <img src="https://skylab.rocketseat.com.br/static/{{ item.imageId }}.svg" alt="{{ item.name }}">
+          </div>
+          <h3>{{ item.name }}</h3>
+          <div class="card-content">
+            <p>{{ item.modules }} modules</p>
+            <p class="price">{{ item.price }}</p>
+          </div>
+          <h4 class="cta">Start now</h4>
+        </div>
+      </a>
+    </div>
+  </div>
+  
+{% endblock content %}

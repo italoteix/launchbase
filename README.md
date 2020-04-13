@@ -70,6 +70,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 3-2 [Details](/week01/README.md#rocket-challenge-3-2-nunjuck's-files-and-dynamic-data)
   - Rendering dynamic data - [Solution](/week01/03-starting-the-back-end/challenge03-2/)
 
+- Challenge 3-3 [Details](/week01/README.md#rocket-challenge-3-3-course's-description-page)
+  - Query and URL params - [Solution](/week01/03-starting-the-back-end/challenge03-3/)
+
 ## :bulb: Foodfy
 
 This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.

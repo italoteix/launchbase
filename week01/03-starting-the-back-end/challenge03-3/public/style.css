@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+:root {
+  --color-background: #0b0a0c;
+  --color-purple: #715ab7;
+  --color-green: #04d361;
+  --color-text-sec: #87868b;
+  --color-rocket-trasnparent: rgba(113, 90, 183, 0.1);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: var(--color-background);
+  color: white;
+}
+
+/*=== HEADER ===*/
+header {
+  padding: 30px;
+  text-align: center;
+}
+
+nav a {
+  margin: 0 30px;
+  text-decoration: none;
+  transition: color 700ms;
+  color: white;
+}
+
+nav a:hover {
+  color: var(--color-green);
+}
+
+/*=== WRAPPER ===*/
+#wrapper {
+  text-align: center;
+  min-height: 75.5%;
+}
+
+#wrapper .logo {
+  border-radius: 50%;
+  border: 5px solid var(--color-green);
+  margin: 32px 0;
+}
+
+#wrapper h1 {
+  font-size: 48px;
+  line-height: 58px;
+}
+
+#wrapper h3 {
+  margin: 32px 0 16px;
+  color: var(--color-text-sec);
+}
+
+#wrapper ul {
+  color: var(--color-text-sec);
+}
+
+#wrapper ul li {
+  margin-bottom: 8px;
+  display: inline-block;
+  margin: 0 32px;
+}
+
+#wrapper ul li img {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin: 8px 0 16px;
+}
+
+/*=== CARD ===*/
+.cards {
+  max-width: 800px;
+  margin: 32px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+
+.card {
+  background-color: var(--color-rocket-trasnparent);
+  border-radius: 10px;
+  padding: 16px;
+  cursor: pointer;
+}
+
+.card .logo {
+  height: 200px;
+  width: 200px;
+  padding: 8px;
+}
+
+.card .logo img {
+  object-fit: contain;
+  height: 50%;
+  margin-top: 25%;
+}
+
+.card .card-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-bottom: 8px;
+}
+
+.card .card-content .price {
+  background-color: var(--color-green);
+  border-radius: 10px;
+  color: black;
+}
+
+/*=== MODAL ===*/
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  z-index: 1;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.modal {
+  width: 80%;
+  height: 80%;
+  margin: 10vh auto;
+  position: relative;
+}
+
+.modal-buttons {
+  /* height: 5%; */
+  text-align: right;
+}
+
+.modal-buttons i {
+  cursor: pointer;
+}
+
+.modal-buttons i:hover {
+  color: var(--color-purple);
+}
+
+.modal .modal-content {
+  background-color: white;
+  height: 95%;
+  width: 100%;
+}
+.modal .modal-content iframe {
+  height: 100%;
+  width: 100%;
+}
+
+/*=== MODAL.ACTIVE ===*/
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/*=== MODAL.MAXIMIZED ===*/
+.max .modal {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+.max .modal-buttons {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  padding: 3px 8px 0;
+  border-radius: 20px;
+  filter: drop-shadow(0 0 1px black);
+  background-color: var(--color-green);
+  color: white;
+}
+
+/*=== NOT FOUND ===*/
+#wrapper.not-found {
+  color: var(--color-text-sec);
+}
+
+#wrapper.not-found h1 {
+  font-size: 225px;
+  line-height: 270px;
+  color: white;
+}
+
+/*=== COURSE ===*/
+.course {
+  max-width: 400px;
+  margin: 32px auto;
+}
+
+.course a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.course .card {
+  display: grid;
+  justify-content: center;
+}
+
+.course .card .cta {
+  background-color: var(--color-purple);
+  border-radius: 14px;
+  padding: 5px;
+  margin: 16px 0;
+}
+
+/*=== FOOTER ===*/
+footer {
+  text-align: center;
+  margin-top: 32px;
+  width: 100%;
+  background-color: var(--color-rocket-trasnparent);
+}
+
+footer nav {
+  padding: 32px;
+}
+
+footer nav a {
+  padding-bottom: 3px;
+  border-bottom: 1px solid var(--color-green);
+}

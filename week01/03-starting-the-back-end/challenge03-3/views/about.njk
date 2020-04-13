@@ -1,0 +1,24 @@
+{% extends "layout.njk" %}
+
+{% block head %}
+  <title>About</title>
+{% endblock head %}
+
+{% block content %}
+
+  <div id="wrapper">
+    <img class="logo" src="{{ about.avatar_url }}" alt="{{about.name}}">
+    <h1>{{ about.name }}</h1>
+    <h2>{{ about.description }}</h2>
+    <h3>Main stack</h3>
+    <ul>
+      {% for tech in about.stack %}
+        <li>
+          <img class="logo" src="{{ tech.url }}" alt="{{ tech.name }} logo">
+          <p>{{ tech.name }}</p>
+        </li>
+      {% endfor %}
+    </ul>
+  </div>
+
+{% endblock content %}
