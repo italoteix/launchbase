@@ -3,7 +3,8 @@ module.exports = [
     id: "GykTLqODQuU",
     title: "Animated form with vanilla JS and CSS",
     duration: 57,
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "HN1UjzRSdBk",
@@ -21,7 +22,8 @@ module.exports = [
     id: "ghTrp1x_1As",
     title: "What is an API? REST and RESTful?",
     duration: 33,
-    price: "Free"
+    price: "Free",
+    featured: true
   },
   {
     id: "GSqR2i-Pq6o",
@@ -33,6 +35,7 @@ module.exports = [
     id: "2alg7MQ6_sI",
     title: "Animated form with vanilla JS and CSS",
     duration: 57,
-    price: "Free"
+    price: "Free",
+    featured: true
   },
 ]

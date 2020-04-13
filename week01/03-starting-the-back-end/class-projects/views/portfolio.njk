@@ -16,8 +16,11 @@
     {% for item in items %}
 
       <div class="card" id="{{item.id}}">
-        <div class="card__image--container">
+        <div class="card__image--container {{ 'featured-wrapper' if item.featured }}">
           <img src="https://img.youtube.com/vi/{{item.id}}/maxresdefault.jpg" alt="{{item.title}}">
+          {% if item.featured %}
+          <div class="featured">Featured</div>
+          {% endif %}
         </div>
         <div class="card__content">
           <p>{{item.title}}</p>
@@ -32,18 +35,6 @@
     
     
   </section>
-
-  <div class="modal-overlay">
-    <div class="modal">
-      <div class="close-modal">
-        <i class="material-icons">close</i>
-      </div>
-      
-      <div class="modal-content">
-        <iframe src="https://www.youtube.com/embed/GykTLqODQuU" frameborder="0"></iframe>
-      </div>
-    </div>
-  </div>
 
   <script src="/scripts.js"></script>
 {% endblock %}
