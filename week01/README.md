@@ -255,5 +255,5 @@
   ```
 
   <p align="center">
-    <img alt="first-html" src="/week01/03-starting-the-back-end/demo/challenge3-1.png" width="600px" />
+    <img alt="404-page" src="/week01/03-starting-the-back-end/demo/challenge3-1.png" width="600px" />
   </p>

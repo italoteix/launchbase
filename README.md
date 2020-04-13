@@ -62,9 +62,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 2-2 - [Details](/week01/README.md#rocket-challenge-2-3-content-page)
   - Modal and iframe - [Solution](/week01/02-starting-the-front/challenge02-3/)
 
-## Starting the Back-end
+### Starting the Back-end
 
-- Challenge [Description](/week01/README.md#rocket-challenge-3-1-first-server)
+- Challenge 3-1 [Details](/week01/README.md#rocket-challenge-3-1-first-server)
   - Express and Nunjucks - [Solution](/week01/03-starting-the-back-end/challenge03-1/)
 
 ## :bulb: Foodfy

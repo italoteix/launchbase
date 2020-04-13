@@ -1,22 +1,22 @@
 {% extends "layout.njk" %}
 
 {% block head %}
-  <title>Ítalo Teixeira</title>
+  <title>{{ about.name }}</title>
 {% endblock %}
 
 {% block content %}
 
 <div id="wrapper">
-  <img src="https://avatars2.githubusercontent.com/u/45885054?s=460&u=cea3d2a197b1776fd7e75d2eff15dbecb4f80b73&v=4" alt="italo teixeira">
-  <h1>Ítalo Teixeira</h1>
-  <h2>Front-end Developer</h2>
-  <p>Sailing to new horizons and delivering high-value mobile and web apps at <a href="https://barato.com.br" target="_blank">Barato</a></p>
+  <img src="{{ about.avatar_url }}" alt="{{ about.name }}">
+  <h1>{{ about.name }}</h1>
+  <h2>{{ about.role }}</h2>
+  <p>{{ about.description }}</p>
 </div>
 
 <div id="links-footer" class="links">
-  <a href="https://www.github.com/italoteix/" target="_blank">Github</a>
-  <a href="https://www.twitter.com/italoteix/" target="_blank">Twitter</a>
-  <a href="https://www.linkedin.com/in/italoteix/" target="_blank">Linkedin</a>
+  {% for link in about.links %}
+    <a href="{{link.url}}" target="_blank">{{ link.name }}</a>
+  {% endfor %}
 </div>
 
 {% endblock %}
