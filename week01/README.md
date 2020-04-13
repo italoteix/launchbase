@@ -28,7 +28,8 @@
   <a href="#rocket-challenge-2-1-first-html">Challenge 2-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-2-2-about-page">Challenge 2-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-2-3-content-page">Challenge 2-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-3-1-first-server">Challenge 3-1</a>
+  <a href="#rocket-challenge-3-1-first-server">Challenge 3-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-3-2-nunjuck's-files-and-dynamic-data">Challenge 3-2</a>
 </p>
 
 ## :vertical_traffic_light: Web Development Introduction
@@ -257,3 +258,30 @@
   <p align="center">
     <img alt="404-page" src="/week01/03-starting-the-back-end/demo/challenge3-1.png" width="600px" />
   </p>
+
+### :rocket: Challenge 3-2: Nunjuck's files and dynamic data
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03/blob/master/desafios/03-2-nunjucks-e-dados-dinamicos.md)
+  - Rendering dynamic data - [Solution](/week01/03-starting-the-back-end/challenge03-2/)
+
+  #### Installing
+
+  Make sure that you are at the project root directory and run the following command on your terminal
+
+  ```bash
+  $ npm install
+  ```
+
+  #### Local server
+
+  Run this command
+
+  ```bash
+  $ npm start
+  ```
+
+  After that, the following message should be logged at your terminal
+
+  ```bash
+  Server running on port 5000
+  ```
