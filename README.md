@@ -23,6 +23,7 @@
 <p align="center">
   <a href="#rocket-about-this-repo">About this repo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-week-01">Week 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-week-02">Week 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-foodfy">Foodfy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -72,6 +73,13 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 - Challenge 3-3 [Details](/week01/README.md#rocket-challenge-3-3-course's-description-page)
   - Query and URL params - [Solution](/week01/03-starting-the-back-end/challenge03-3/)
+
+## :calendar: Week 01
+
+### Gym's Manager
+
+- Challenge 4-1 [Details](/week02/README.md#rocket-challenge-4-1-header)
+  - - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-1/)
 
 ## :bulb: Foodfy
 
