@@ -65,20 +65,20 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 ### Starting the Back-end
 
-- Challenge 3-1 [Details](/week01/README.md#rocket-challenge-3-1-first-server)
+- Challenge 3-1 - [Details](/week01/README.md#rocket-challenge-3-1-first-server)
   - Express and Nunjucks - [Solution](/week01/03-starting-the-back-end/challenge03-1/)
 
-- Challenge 3-2 [Details](/week01/README.md#rocket-challenge-3-2-nunjuck's-files-and-dynamic-data)
+- Challenge 3-2 - [Details](/week01/README.md#rocket-challenge-3-2-nunjuck's-files-and-dynamic-data)
   - Rendering dynamic data - [Solution](/week01/03-starting-the-back-end/challenge03-2/)
 
-- Challenge 3-3 [Details](/week01/README.md#rocket-challenge-3-3-course's-description-page)
+- Challenge 3-3 - [Details](/week01/README.md#rocket-challenge-3-3-course's-description-page)
   - Query and URL params - [Solution](/week01/03-starting-the-back-end/challenge03-3/)
 
 ## :calendar: Week 01
 
 ### Gym's Manager
 
-- Challenge 4-1 [Details](/week02/README.md#rocket-challenge-4-1-header)
+- Challenge 4-1 - [Details](/week02/README.md#rocket-challenge-4-1-header)
   - - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-1/)
 
 ## :bulb: Foodfy
