@@ -79,7 +79,10 @@ The idea about this project is to bring my study notes and solutions to challeng
 ### Gym's Manager
 
 - Challenge 4-1 - [Details](/week02/README.md#rocket-challenge-4-1-header)
-  - - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-1/)
+  - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-1/)
+
+- Challenge 4-2 - [Details](/week02/README.md#rocket-challenge-4-2-teacher's-card)
+  - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-2/)
 
 ## :bulb: Foodfy
 
