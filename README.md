@@ -74,7 +74,7 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 3-3 - [Details](/week01/README.md#rocket-challenge-3-3-course's-description-page)
   - Query and URL params - [Solution](/week01/03-starting-the-back-end/challenge03-3/)
 
-## :calendar: Week 01
+## :calendar: Week 02
 
 ### Gym's Manager
 
