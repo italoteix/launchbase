@@ -1,0 +1,12 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "name": "asdf",
+      "birth": 1320969600000,
+      "educational_background": "high",
+      "class_type": "inclass",
+      "subjects": "asdf, fda"
+    }
+  ]
+}

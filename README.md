@@ -82,7 +82,10 @@ The idea about this project is to bring my study notes and solutions to challeng
   - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-1/)
 
 - Challenge 4-2 - [Details](/week02/README.md#rocket-challenge-4-2-teacher's-card)
-  - Pseudo classes and transition - [Solution](/week02/04-gym-manager/challenge04-2/)
+  - Keyframes and shadows - [Solution](/week02/04-gym-manager/challenge04-2/)
+
+- Challenge 4-3 - [Details](/week02/README.md#rocket-challenge-4-3-form-and-teacher's-creation-route)
+  - Validation and writing files - [Solution](/week02/04-gym-manager/challenge04-3/)
 
 ## :bulb: Foodfy
 
