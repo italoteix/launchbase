@@ -87,6 +87,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 4-3 - [Details](/week02/README.md#rocket-challenge-4-3-form-and-teacher's-creation-route)
   - Validation and writing files - [Solution](/week02/04-gym-manager/challenge04-3/)
 
+- Challenge 4-4 - [Details](/week02/README.md#rocket-challenge-4-4-presentation,-editing-and-formating-of-teacher's-data)
+  - Date manipulation - [Solution](/week02/04-gym-manager/challenge04-4/)
+
 ## :bulb: Foodfy
 
 This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.

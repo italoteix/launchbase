@@ -1,0 +1,24 @@
+{
+  "teachers": [
+    {
+      "id": 1,
+      "avatar_url": "https://source.unsplash.com/collection/8684183/500x500",
+      "name": "Bruno Pojj",
+      "birth": 697766400000,
+      "educational_background": "college",
+      "class_type": "online",
+      "subjects": "jnoajn, onin, ihboi",
+      "created_at": 1588123949272
+    },
+    {
+      "id": 2,
+      "avatar_url": "https://source.unsplash.com/collection/8684183/500x500",
+      "name": "Bia Pojj",
+      "birth": 964310400000,
+      "educational_background": "master",
+      "class_type": "inclass",
+      "subjects": "jnoajn, onin",
+      "created_at": 1588124000879
+    }
+  ]
+}
