@@ -1,18 +1,9 @@
 {
   "instructors": [
     {
-      "id": 1,
+      "id": "2",
       "avatar_url": "https://google.com",
-      "name": "Raimundo",
-      "birth": 987206400000,
-      "gender": "M",
-      "services": "Workout, Crossfit",
-      "created_at": 1587179753811
-    },
-    {
-      "id": 2,
-      "avatar_url": "https://google.com",
-      "name": "Raimundo",
+      "name": "Raimundo Fagner",
       "birth": 987206400000,
       "gender": "M",
       "services": "Workout, Crossfit",
