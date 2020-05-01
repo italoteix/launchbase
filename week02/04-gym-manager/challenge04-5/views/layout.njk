@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% block head %}
+    <title>Rocketseat</title>
+  {% endblock head %}
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/teachers">Teachers</a>
+      <a href="/students">Students</a>
+    </nav>
+  </header>
+
+  {% block content %}
+  {% endblock content %}
+
+</body>
+</html>
