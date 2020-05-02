@@ -25,7 +25,8 @@
   <a href="#rocket-challenge-4-2-teacher's-card">Challenge 4-2</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-4-3-form-and-teacher's-creation-route">Challenge 4-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-4-4-presentation,-editing-and-formating-of-teacher's-data">Challenge 4-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-4-5-http-put-and-delete">Challenge 4-5</a>
+  <a href="#rocket-challenge-4-5-http-put-and-delete">Challenge 4-5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-4-6-listing-teachers">Challenge 4-6</a>
 </p>
 
 ## :runner: Gym's Manager
@@ -172,3 +173,30 @@
   <p align="center">
     <img alt="challenge4-5" src="/week02/demos/challenge4-5.png" width="600px" />
   </p>
+
+### :rocket: Challenge 4-6: Listing teachers
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-6-list-teachers.md)
+  - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-6/)
+
+  #### Installing
+
+  Make sure that you are at the project root directory and run the following command on your terminal
+
+  ```bash
+  $ npm install
+  ```
+
+  #### Local server
+
+  Run this command
+
+  ```bash
+  $ npm start
+  ```
+
+  After that, the following message should be logged at your terminal
+
+  ```bash
+  Server running on port 3000
+  ```

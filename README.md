@@ -93,6 +93,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 4-5 - [Details](/week02/README.md#rocket-challenge-4-5-http-put-and-delete)
   - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-5/)
 
+- Challenge 4-6 - [Details](/week02/README.md#rocket-challenge-4-6-listing-teachers)
+  - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-6/)
+
 ## :bulb: Foodfy
 
 This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.

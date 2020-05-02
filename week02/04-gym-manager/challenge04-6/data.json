@@ -1,0 +1,14 @@
+{
+  "teachers": [
+    {
+      "id": 2,
+      "avatar_url": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60",
+      "name": "Bia Pojj",
+      "birth": 964310400000,
+      "educational_background": "master",
+      "class_type": "inclass",
+      "subjects": "jnoajn, onin",
+      "created_at": 1588124000879
+    }
+  ]
+}
