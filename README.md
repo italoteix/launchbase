@@ -94,7 +94,10 @@ The idea about this project is to bring my study notes and solutions to challeng
   - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-5/)
 
 - Challenge 4-6 - [Details](/week02/README.md#rocket-challenge-4-6-listing-teachers)
-  - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-6/)
+  - Tables - [Solution](/week02/04-gym-manager/challenge04-6/)
+
+- Challenge 4-7 - [Details](/week02/README.md#rocket-challenge-4-7-structuring-students)
+  - Forms - [Solution](/week02/04-gym-manager/challenge04-7/)
 
 ## :bulb: Foodfy
 

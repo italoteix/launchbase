@@ -26,7 +26,8 @@
   <a href="#rocket-challenge-4-3-form-and-teacher's-creation-route">Challenge 4-3</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-4-4-presentation,-editing-and-formating-of-teacher's-data">Challenge 4-4</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#rocket-challenge-4-5-http-put-and-delete">Challenge 4-5</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#rocket-challenge-4-6-listing-teachers">Challenge 4-6</a>
+  <a href="#rocket-challenge-4-6-listing-teachers">Challenge 4-6</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-4-7-structuring-students">Challenge 4-7</a>
 </p>
 
 ## :runner: Gym's Manager
@@ -177,7 +178,34 @@
 ### :rocket: Challenge 4-6: Listing teachers
 
 - Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-6-list-teachers.md)
-  - HTTP methods - [Solution](/week02/04-gym-manager/challenge04-6/)
+  - Tables - [Solution](/week02/04-gym-manager/challenge04-6/)
+
+  #### Installing
+
+  Make sure that you are at the project root directory and run the following command on your terminal
+
+  ```bash
+  $ npm install
+  ```
+
+  #### Local server
+
+  Run this command
+
+  ```bash
+  $ npm start
+  ```
+
+  After that, the following message should be logged at your terminal
+
+  ```bash
+  Server running on port 3000
+  ```
+
+### :rocket: Challenge 4-7: Structuring students
+
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-04/blob/master/desafios/04-7-students.md)
+  - Forms - [Solution](/week02/04-gym-manager/challenge04-7/)
 
   #### Installing
 
