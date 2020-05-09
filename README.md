@@ -24,6 +24,7 @@
   <a href="#rocket-about-this-repo">About this repo</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-week-01">Week 01</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#calendar-week-02">Week 02</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#calendar-week-02">Week 03</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#bulb-foodfy">Foodfy</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-license">License</a>
 </p>
@@ -98,6 +99,13 @@ The idea about this project is to bring my study notes and solutions to challeng
 
 - Challenge 4-7 - [Details](/week02/README.md#rocket-challenge-4-7-structuring-students)
   - Forms - [Solution](/week02/04-gym-manager/challenge04-7/)
+
+## :calendar: Week 03
+
+### Persisting application data
+
+- Challenge 5-1 - [Details](/week03/README.md#rocket-challenge-4-1-refactoring-the-application-and-configuring-the-db)
+  - Pseudo classes and transition - [Solution](/week03/05-persisting-application-data/challenge05-1/)
 
 ## :bulb: Foodfy
 
