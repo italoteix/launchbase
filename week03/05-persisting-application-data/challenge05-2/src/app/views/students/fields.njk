@@ -1,0 +1,52 @@
+<div class="item">
+  <div>Avatar URL</div>
+  <div>
+    <input name="avatar_url" type="url" placeholder="https://" value="{{ student.avatar_url }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Name</div>
+  <div>
+    <input type="text" name="name" placeholder="Your name" value="{{ student.name }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Email</div>
+  <div>
+    <input type="email" name="email" value="{{ student.email }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Birth</div>
+  <div>
+    <input type="date" name="birth" value="{{ student.birth }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>School Year</div>
+  <div>
+    <select name="school_year">
+      <option value="5" {% if student.school_year == '5' %}selected{% endif %}>5th year</option>
+      <option value="6" {% if student.school_year == '6' %}selected{% endif %}>6th year</option>
+      <option value="7" {% if student.school_year == '7' %}selected{% endif %}>7th year</option>
+      <option value="8" {% if student.school_year == '8' %}selected{% endif %}>8th year</option>
+      <option value="9" {% if student.school_year == '9' %}selected{% endif %}>9th year</option>
+      <option value="1HS" {% if student.school_year == '1HS' %}selected{% endif %}>1st High School</option>
+      <option value="2HS" {% if student.school_year == '2HS' %}selected{% endif %}>2nd High School</option>
+      <option value="3HS" {% if student.school_year == '3HS' %}selected{% endif %}>3rd High School</option>
+    </select>
+  </div>
+</div>
+
+<div class="item">
+  <div>Hours per week</div>
+  <div>
+    <input type="number" name="hpw" value="{{ student.hpw }}">
+  </div>
+</div>
+
+<input type="submit">
