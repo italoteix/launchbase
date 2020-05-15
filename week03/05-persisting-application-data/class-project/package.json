@@ -5,8 +5,8 @@
   "main": "server.js",
   "scripts": {
     "start": "npm-run-all -p nodemon browser-sync",
-    "nodemon": "nodemon server.js",
-    "browser-sync": "browser-sync start --proxy http://localhost:500 --files 'public, src/app/views'"
+    "nodemon": "nodemon src/server.js",
+    "browser-sync": "browser-sync start --proxy http://localhost:5000 --files 'public, src/app/views'"
   },
   "keywords": [],
   "author": "",
