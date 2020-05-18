@@ -1,0 +1,51 @@
+<div class="item">
+  <div>Avatar URL</div>
+  <div>
+    <input name="avatar_url" type="url" placeholder="https://" value="{{ teacher.avatar_url }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Name</div>
+  <div>
+    <input type="text" name="name" placeholder="Your name" value="{{ teacher.name }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Birth</div>
+  <div>
+    <input type="date" name="birth" value="{{ teacher.birth }}">
+  </div>
+</div>
+
+<div class="item">
+  <div>Educational Background</div>
+  <div>
+    <select name="educational_background">
+      <option value="high" {% if teacher.educational_background == 'high' %}selected{% endif %}>High School</option>
+      <option value="college" {% if teacher.educational_background == 'college' %}selected{% endif %}>College</option>
+      <option value="master" {% if teacher.educational_background == 'master' %}selected{% endif %}>Master Degree</option>
+      <option value="doctor" {% if teacher.educational_background == 'doctor' %}selected{% endif %}>Doctorate Degree</option>
+    </select>
+  </div>
+</div>
+
+<div class="item">
+  <div>Class Type</div>
+  <div>
+    <span><input type="radio" name="class_type" value="inclass" {% if teacher.class_type == 'inclass' %}checked{% endif %}>In-class</span>
+    <span><input type="radio" name="class_type" value="online" {% if teacher.class_type == 'online' %}checked{% endif %}>Online</span>
+  </div>
+</div>
+
+<div class="item">
+  <div>Subjects</div>
+  <div>
+    <input type="text" name="subjects" placeholder="Separete subjects with comma" value="{{ teacher.subjects }}">
+  </div>
+</div>
+
+{# <div class="item"> #}
+  <input type="submit">
+{# </div> #}

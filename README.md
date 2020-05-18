@@ -107,10 +107,11 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 5-1 - [Details](/week03/README.md#rocket-challenge-5-1-refactoring-the-application-and-configuring-the-db)
   - Pseudo classes and transition - [Solution](/week03/05-persisting-application-data/challenge05-1/)
 
-### Interacting with the DB
-
 - Challenge 5-2 - [Details](/week03/README.md#rocket-challenge-5-2-interacting-with-the-db)
-  - Pseudo classes and transition - [Solution](/week03/05-persisting-application-data/challenge05-2/)
+  - CRUD - [Solution](/week03/05-persisting-application-data/challenge05-2/)
+
+- Challenge 5-3 - [Details](/week03/README.md#rocket-challenge-5-3-relationships-and-filters-on-db)
+  - Relationships - [Solution](/week03/05-persisting-application-data/challenge05-3/)
 
 ## :bulb: Foodfy
 
