@@ -1,0 +1,39 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <div class="card show-table">
+    <section class="details index">
+      <a class="new" href="/students/create">New</a>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>School year</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for student in students %}
+            <tr>
+              <td>
+                <span style="background-image: url({{ student.avatar_url }})"></span>
+                {{ student.name }}
+              </td>
+              <td>{{ student.email }}</td>
+              <td>{{ student.school_year }}</td>
+              <td><a href="/students/{{ student.id }}">See</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <div
+        class="pagination"
+        data-page={{pagination.page}}
+        data-total={{pagination.total}}
+      ></div>
+    </section>
+  </div>
+{% endblock content %}

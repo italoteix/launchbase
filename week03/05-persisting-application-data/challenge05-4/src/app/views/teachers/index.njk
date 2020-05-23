@@ -1,0 +1,49 @@
+{% extends 'layout.njk' %}
+
+{% block content %}
+  <div class="card show-table">
+    <section class="details index">
+    
+      <div class="header">
+        <a class="button" href="/teachers/create">New</a>
+        <form action="/teachers" method="get">
+          <input type="search" name="filter" value="{{ filter }}" placeholder="Name or subjects">
+          <button class="button" type="submit">Filter</button>
+        </form>
+      </div>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Subjects</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for teacher in teachers %}
+            <tr>
+              <td>
+                <span style="background-image: url({{ teacher.avatar_url }})"></span>
+                {{ teacher.name }}
+              </td>
+              <td>
+                {% for subject in teacher.subjects %}
+                  <span>{{ subject }}</span>
+                {% endfor %}
+              </td>
+              <td><a href="/teachers/{{ teacher.id }}">See</a></td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+
+      <div
+        class="pagination"
+        data-page={{pagination.page}}
+        data-total={{pagination.total}}
+        data-filter={{filter}}
+      ></div>
+    </section>
+  </div>
+{% endblock content %}

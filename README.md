@@ -113,6 +113,9 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 5-3 - [Details](/week03/README.md#rocket-challenge-5-3-relationships-and-filters-on-db)
   - Relationships - [Solution](/week03/05-persisting-application-data/challenge05-3/)
 
+- Challenge 5-4 - [Details](/week03/README.md#rocket-challenge-5-4-pagination-of-db-results)
+  - Pagination - [Solution](/week03/05-persisting-application-data/challenge05-4/)
+
 ## :bulb: Foodfy
 
 This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.
