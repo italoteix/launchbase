@@ -21,34 +21,15 @@
 </p>
 
 <p align="center">
-  <a href="#rocket-challenge-5-1-refactoring-the-application-and-configuring-the-db">Challenge 5-1</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-challenge-6-1-launchstore">Challenge 6-1</a>
 </p>
 
-## :floppy_disk: Persisting application data
+## :handbag: Launchstore
 
-### :rocket: Challenge 5-1: Refactoring the application and configuring the DB
+### :rocket: Challenge 6-1: Mini Challenges
 
-- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-05/blob/master/desafios/05-1-refatorando-aplicacao.md)
-  - Creating DB - [Solution](/week03/05-persisting-application-data/challenge05-1/)
-
-  #### Installing
-
-  Make sure that you are at the project root directory and run the following command on your terminal
-
-  ```bash
-  $ npm install
-  ```
-
-  #### Local server
-
-  Run this command
-
-  ```bash
-  $ npm start
-  ```
-
-  After that, the following message should be logged at your terminal
-
-  ```bash
-  Server running on port 3000
-  ```
+- Challenge [Description](https://github.com/Rocketseat/bootcamp-launchbase-desafios-06/blob/master/desafios/06-1-mini-desafios.md)
+  - DBML - [Solution](/week04/06-launchstore/challenge06-1/cars_db.sql)
+  - Footer - [Solution](/week04/06-launchstore/challenge06-1/footer)
+  - Async Functions - [Solution](/week04/06-launchstore/challenge06-1/async.js)
+  - Input Masks - [Solution](/week04/06-launchstore/challenge06-1/mask.js)

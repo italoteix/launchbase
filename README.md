@@ -117,6 +117,16 @@ The idea about this project is to bring my study notes and solutions to challeng
 - Challenge 5-4 - [Details](/week03/README.md#rocket-challenge-5-4-pagination-of-db-results)
   - Pagination - [Solution](/week03/05-persisting-application-data/challenge05-4/)
 
+## :calendar: Week 04
+
+### Launchstore
+
+- Challenge 6-1 - [Details](/week04/README.md#rocket-challenge-6-1-mini-challenges)
+  - DBML - [Solution](/week04/06-launchstore/challenge06-1/cars_db.sql)
+  - Footer - [Solution](/week04/06-launchstore/challenge06-1/footer)
+  - Async Functions - [Solution](/week04/06-launchstore/challenge06-1/async.js)
+  - Input Masks - [Solution](/week04/06-launchstore/challenge06-1/mask.js)
+
 ## :bulb: Foodfy
 
 This Bootcamp challenges its students to create recipes website step by step, at the end of each major module using the knowledge and tools acquired on it.

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  {% block head %}
+    <title>Rocketseat</title>
+  {% endblock head %}
+  
+  <link rel="icon" href="/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="/">About</a>
+      <a href="/courses">Courses</a>
+      <a href="https://discordapp.com/invite/gCRAFhc">Community</a>
+      <a href="mailto:oi@rocketseat.com.br">Email</a>
+      <a href="tel:+5547992078767">Phone</a>
+    </nav>
+  </header>
+
+  {% block content %}
+  {% endblock content %}
+
+  <footer>
+    <nav>
+      <a href="https://github.com/Rocketseat/" target="_blank">Github</a>
+      <a href="https://www.instagram.com/rocketseat_oficial/" target="_blank">Instagram</a>
+      <a href="https://facebook.com/rocketseat/" target="_blank">Facebook</a>
+    </nav>
+
+    <div class="container">
+      <p>Residencial Acalanto - R. Guilherme Gemballa, 260 - Sala 3 - Jardim América, Rio do Sul - SC, 89160-188</p>
+      <p>Rocketseat © 2020 - Todos os direitos reservados</p>
+    </div>
+  </footer>
+</body>
+</html>
