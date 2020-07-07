@@ -23,7 +23,10 @@ const PhotosUpload = {
     const { files: fileList } = event.target;
     PhotosUpload.input = event.target;
 
-    if (PhotosUpload.hasLimit(event)) return;
+    if (PhotosUpload.hasLimit(event)) {
+      PhotosUpload.updateInputFiles();
+      return;
+    }
 
     Array.from(fileList).forEach(file => {
       PhotosUpload.files.push(file);
@@ -41,7 +44,7 @@ const PhotosUpload = {
       reader.readAsDataURL(file);
     });
 
-    PhotosUpload.input.files = PhotosUpload.getAllFiles();
+    PhotosUpload.updateInputFiles();
   },
   hasLimit(event) {
     const { uploadLimit, input, preview } = PhotosUpload;
@@ -96,25 +99,32 @@ const PhotosUpload = {
   },
   removePhoto(event) {
     const photoDiv = event.target.parentNode;
-    const photosArray = Array.from(PhotosUpload.preview.children);
-    const index = photosArray.indexOf(photoDiv);
 
+    const newFiles = Array.from(PhotosUpload.preview.children).filter(file => {
+      if (file.classList.contains('photo') && !file.getAttribute('id')) return true;
+    });
+    const index = newFiles.indexOf(photoDiv);
     PhotosUpload.files.splice(index, 1);
-    PhotosUpload.input.files = PhotosUpload.getAllFiles();
+    
+    PhotosUpload.updateInputFiles();
 
     photoDiv.remove();
   },
   removeOldPhoto(event) {
     const photoDiv = event.target.parentNode;
-
-    if (!photoDiv.id) {
+    
+    if (photoDiv.id) {
       const removedFiles = document.querySelector('input[name="removed_files"]');
+
       if (removedFiles) {
         removedFiles.value += `${photoDiv.id},`;
       }
-    }
 
-    photoDiv.remove();
+      photoDiv.remove();
+    }
+  },
+  updateInputFiles() {
+    PhotosUpload.input.files = PhotosUpload.getAllFiles();
   }
 };
 

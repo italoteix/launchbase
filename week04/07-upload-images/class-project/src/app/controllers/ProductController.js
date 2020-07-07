@@ -78,7 +78,7 @@ module.exports = {
     results = await Product.files(product.id);
     let files = results.rows;
     files = files.map(file => ({
-      ...files,
+      ...file,
       src: `${req.protocol}://${req.headers.host}${file.path}`.replace('public', '')
     }))
 
@@ -93,14 +93,6 @@ module.exports = {
       }
     }
 
-    if (req.files.length != 0) {
-      const newFilesPromise = req.files.map(file => {
-        File.create({ ...file, product_id: req.body.id });
-      });
-
-      await Promise.all(newFilesPromise);
-    }
-
     if (req.body.removed_files) {
       const removedFiles = req.body.removed_files.split(',');
       const lastIndex = removedFiles.length - 1;
@@ -109,6 +101,21 @@ module.exports = {
       const removedFilesPromise = removedFiles.map(id => File.delete(id));
 
       await Promise.all(removedFilesPromise);
+    }
+
+    if (req.files.length != 0) {
+
+      // Validar se já existem 6 imagens no total
+      const oldFiles = await Product.files(req.body.id);
+      const totalFiles = oldFiles.rows.length + req.files.length;
+
+      if (totalFiles <= 6) {
+        const newFilesPromise = req.files.map(file => {
+          File.create({ ...file, product_id: req.body.id });
+        });
+  
+        await Promise.all(newFilesPromise);
+      }
     }
 
     req.body.price = req.body.price.replace(/\D/g, '');
