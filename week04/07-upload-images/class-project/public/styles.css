@@ -349,11 +349,11 @@ form .item #photos-preview img {
   width: 100%;
   height: 280px;
   
-    object-fit: none;
-    object-position: 50% 50%;
-    border: 1px solid #efefef;
+  object-fit: none;
+  object-position: 50% 50%;
+  border: 1px solid #efefef;
 
-    cursor: zoom-in;
+  cursor: zoom-in;
 }
 
 .product-single .gallery-preview {
